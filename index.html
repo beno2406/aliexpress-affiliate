@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>מבצעים חמים מ-AliExpress</title>
+  <style>
+    :root {
+      --brand:#ff4747; --bg:#f6f7fb; --card:#fff; --text:#222; --muted:#666;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin:0; padding:0; font-family: Arial, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Helvetica, sans-serif; background:var(--bg); color:var(--text); }
+    header {
+      background: linear-gradient(135deg, #ff4747, #ff7a39);
+      color:#fff; padding:28px 16px; text-align:center;
+      box-shadow: 0 6px 18px rgba(0,0,0,.12);
+    }
+    h1 { margin:0 0 6px; font-size: 1.8rem; }
+    .sub { opacity:.9; margin:0; }
+    .container { max-width: 1100px; margin: 28px auto; padding: 0 16px; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 960px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+
+    .card {
+      background: var(--card);
+      border-radius: 14px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.08);
+      overflow: hidden;
+      display: flex; flex-direction: column;
+    }
+    .thumb { width:100%; aspect-ratio: 4/3; background:#eee; display:block; object-fit: cover; }
+    .body { padding: 14px; display:flex; flex-direction: column; gap:6px; }
+    .title { font-weight: 700; font-size: 1.05rem; margin:0; }
+    .desc { margin:0; color: var(--muted); font-size:.95rem; }
+    .actions { margin-top: 8px; display:flex; gap:8px; flex-wrap: wrap; }
+    .btn {
+      background: var(--brand); color:#fff; text-decoration:none; font-weight:700;
+      padding:10px 14px; border-radius:10px; display:inline-flex; align-items:center; justify-content:center;
+      transition: transform .06s ease, box-shadow .2s ease;
+      box-shadow: 0 6px 16px rgba(255,71,71,.35);
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .code { background:#ffe9e9; color:#b71818; padding:4px 10px; border-radius: 999px; font-weight:700; font-size:.9rem; }
+    footer { text-align:center; padding:22px; color:#888; font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>מבצעי Choice Day ב‑AliExpress 🎉</h1>
+    <p class="sub">קודי קופון ועסקאות חמות • לחץ על כפתור הקניה עם הקישור האישי שלך</p>
+  </header>
+
+  <main class="container">
+    <section class="grid">
+
+      <article class="card">
+        <img class="thumb" src="assets/img/coupon.svg" alt="קוד קופון גלובלי" loading="lazy">
+        <div class="body">
+          <h2 class="title">קוד קופון גלובלי: <span class="code">AFO10</span></h2>
+          <p class="desc">10$ הנחה בקנייה מעל 69$ • מוגבל בזמן</p>
+          <div class="actions">
+            <a class="btn" href="הכנס_כאן_קישור_אפיליאייט_שלך">לקנייה עם הקוד</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="assets/img/watch.svg" alt="שעון חכם" loading="lazy">
+        <div class="body">
+          <h2 class="title">שעון חכם במבצע</h2>
+          <p class="desc">מחיר אחרי קופון החל מ‑$25 • משלוח מהיר</p>
+          <div class="actions">
+            <a class="btn" href="הכנס_כאן_קישור_אפיליאייט_שלך">לפרטים ולקנייה</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="assets/img/earbuds.svg" alt="אוזניות Bluetooth" loading="lazy">
+        <div class="body">
+          <h2 class="title">אוזניות Bluetooth</h2>
+          <p class="desc">עד 50% הנחה + קוד גלובלי AFO20</p>
+          <div class="actions">
+            <a class="btn" href="הכנס_כאן_קישור_אפיליאייט_שלך">לקנייה עכשיו</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="assets/img/camera.svg" alt="מצלמת אבטחה אלחוטית" loading="lazy">
+        <div class="body">
+          <h2 class="title">מצלמת אבטחה אלחוטית</h2>
+          <p class="desc">שמור על הבית במחיר מיוחד – החל מ‑$35</p>
+          <div class="actions">
+            <a class="btn" href="הכנס_כאן_קישור_אפיליאייט_שלך">לצפייה במבצע</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="assets/img/trimmer.svg" alt="מכונת תספורת נטענת" loading="lazy">
+        <div class="body">
+          <h2 class="title">מכונת תספורת נטענת</h2>
+          <p class="desc">קלה לשימוש • סוללה חזקה • רק $15</p>
+          <div class="actions">
+            <a class="btn" href="הכנס_כאן_קישור_אפיליאייט_שלך">לקנייה עכשיו</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="thumb" src="assets/img/backpack.svg" alt="תיק גב למחשב נייד" loading="lazy">
+        <div class="body">
+          <h2 class="title">תיק גב למחשב נייד</h2>
+          <p class="desc">עמיד למים • עד 15.6″ • החל מ‑$20</p>
+          <div class="actions">
+            <a class="btn" href="הכנס_כאן_קישור_אפיליאייט_שלך">לקנייה עכשיו</a>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    © 2025 דף שותפים • מבוסס על AliExpress Affiliate Program
+  </footer>
+</body>
+</html>
